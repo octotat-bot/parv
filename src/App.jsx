@@ -7,6 +7,7 @@ import BMICalculator from './pages/BMICalculator';
 import CalorieCalculator from './pages/CalorieCalculator';
 import ErrorBoundary from './components/ErrorBoundary';
 import './App.css';
+import './styles/main.css';
 
 function App() {
   return (
