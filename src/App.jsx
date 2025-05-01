@@ -6,12 +6,12 @@ import Home from './pages/Home';
 import BMICalculator from './pages/BMICalculator';
 import CalorieCalculator from './pages/CalorieCalculator';
 import ErrorBoundary from './components/ErrorBoundary';
-import './styles/main.css';
+import './App.css';
 
 function App() {
   return (
     <ErrorBoundary>
-      <Router>
+      <Router basename="/capstron-project">
         <div className="app">
           <Navbar />
           <main className="main-content">
