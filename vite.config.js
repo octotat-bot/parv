@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     port: 3000,
   },
-  base: '/capstron-project/',
+  base: '/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
