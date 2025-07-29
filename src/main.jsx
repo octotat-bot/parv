@@ -8,7 +8,8 @@ import './index.css'
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
 
 if (!PUBLISHABLE_KEY) {
-  throw new Error("Missing Publishable Key")
+  console.error("Missing Clerk Publishable Key. Please check your environment variables.")
+  throw new Error("Missing Publishable Key - Check Vercel environment variables")
 }
 
 ReactDOM.createRoot(document.getElementById('root')).render(
